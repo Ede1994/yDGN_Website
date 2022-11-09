@@ -60,3 +60,36 @@
 .team__member-socials a {
     padding: 1rem;
 }
+
+/* ========================= MEDIA QUERIES (TABLETS) ====================== */
+@media screen and (max-width: 1024px) {
+
+    /* ================= TEAM =================== */
+    .team__container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .team__member {
+        padding: 1rem;
+    }
+}
+
+/* ========================= MEDIA QUERIES (PHONES) ====================== */
+@media screen and (max-width: 600px) {
+    
+    /* ================= TEAM =================== */
+    .team__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+
+    .team__member {
+        padding: 0;
+    }
+
+    .team__member p {
+        margin-bottom: 1.5rem;
+    }
+
+}
