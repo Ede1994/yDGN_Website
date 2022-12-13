@@ -17,6 +17,7 @@
     <!-- style sheets -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/form.css">
 </head>
 <body>
     <!--============== START OF NAVBAR ==============-->
@@ -121,6 +122,55 @@
         </div>
     </section>
     <!--============= END OF TEAM ================-->
+
+    <!--============= START OF FORM ================-->
+    <section class="contactform">
+    
+        <h2>Kontakt</h2>
+            
+            <form class="form_container" action="contact.php" method="post" autocomplete="off">
+    
+                <p>Bei Fragen, Anmerkungen, Wünschen etc. meldet euch einfach über folgendes Kontaktfeld bei uns. 
+                        Wir antworten so schnell wie möglich!
+                </p>
+    
+                <div class="form-box">       
+                    <label for="vorname">Vorname:</label>
+                    <input type="text" id="vorname" name="vorname" autofocus />
+                </div> 
+                    
+                <div class="form-box">
+                    <label for="nachname">Name:</label>
+                    <input type="text" id="nachname" name="nachname" />
+                </div>
+    
+                <div class="form-box">
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@email.com" />
+                </div>
+                        
+                <div class="form-box">
+                    <label for="subject">Thema:</label>
+                    <input type="text" id="subject" name="subject" />
+                </div>
+                        
+                <div class="form-box">
+                    <label for="message">Nachricht:</label>
+                    <textarea name="message" id="message" required rows="6" cols="60"></textarea>
+                </div>
+                    
+                <div class="form-box">
+                    <input type="checkbox" id="agb" name="agb" value="Ja" required />
+                    <label for="agb">Ich bestätige, dass ich mit der Verarbeitung meiner Eingaben zum Zwecke der 
+                    Anfragebearbeitung einverstanden bin.</label>
+                </div>
+    
+                <div class="form-box">
+                    <input type="submit" value="Absenden" />
+                </div>
+            
+            </form>
+        </section>
 
     <!--============== START OF FOOTER ==============-->
     <footer>
