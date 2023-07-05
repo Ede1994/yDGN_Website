@@ -2,3 +2,7 @@
 .content__impressum {
     position: relative;
 }
+
+.content__impressum a {
+    text-decoration: underline;
+}
