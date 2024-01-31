@@ -20,8 +20,11 @@ author: Eric Einspänner
 ###############################################
 
 navbar-links:
-  About: "/pages/about"
+  Home: "index.html"
+  Über Uns: "/pages/about"
+  Ziele: "/pages/goals"
   FAQ: "/pages/faq"
+  Kontakt: "/pages/contact"
 
 ################
 # --- Logo --- #
