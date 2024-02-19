@@ -5,5 +5,5 @@ finance_board:
 homepage_board:
 - name: Eric Einspänner
   desc: Einrichtung von Online-Präsenz; Aktualisierung der Seiteninhalte
-  img: ../assets/img/Eric_Einspaenner.png
+  img: https://github.com/Ede1994/yDGN_Website/blob/markdown/assets/img/Eric_Einspaenner.png
   github: http://github.com/ede1994
