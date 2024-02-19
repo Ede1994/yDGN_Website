@@ -13,6 +13,6 @@ Um die unterschiedlichen Ziele der Young DGN m√∂glichst effektiv verfolgen zu k√
 
 
 ## Themenschwerpunkte der Ressorts
-
+{% include list-circles.html items=site.data.people.homepage_board %}
 
 
