@@ -4,7 +4,6 @@ finance_board:
   img: ../assets/img/Friederike_Eilsberger.png
 homepage_board:
 - name: Eric Einspänner
-  desc: - Einrichtung von Online-Präsenz
-  - Aktualisierung der Seiteninhalte
+  desc: Einrichtung von Online-Präsenz; Aktualisierung der Seiteninhalte
   img: ../assets/img/Eric_Einspaenner.png
   github: http://github.com/ede1994
