@@ -1,0 +1,9 @@
+finance_board:
+- name: Dr. Friederike Eilsberger
+  desc: Kommunikation mit an einer Partnerschaft interessierten Unternehmen und Förderern; Verwaltung von Finanzmitteln
+  img:
+homepage_board:
+- name: Eric Einspänner
+  desc: Einrichtung von Online-Präsenz; Aktualisierung der Seiteninhalte
+  img: https://dl.airtable.com/.attachments/ad3bbc1d277e062621c8a589cb6ae45c/679eea65/gabor-csardi.jpg
+  github: http://github.com/ede1994
